@@ -19,8 +19,8 @@ export class NavigationListComponent {
       iconName: "groupe"
     },
     {
-      title: 'Messages',
-      path: '/messages',
+      title: 'Chat',
+      path: '/chat',
       iconName: "chat"
     },
     {

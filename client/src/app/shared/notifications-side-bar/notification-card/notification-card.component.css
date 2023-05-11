@@ -29,18 +29,29 @@
 	height: 15px;
 }
 
+.notification-card-message-container {
+	max-width: 6vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
 .notification-card-message {
 	font-size: 10px;
 	color: #8F90AD;
 	font-weight: 500;
 	margin-bottom: 0px;
+	max-width: 6vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 
 .notification-card-dot-container {
 	display: flex;
 	flex-direction: row-reverse;
 	width: 100%;
-  }
+}
 
 .notification-card-dot {
 	height: 5px;
@@ -48,4 +59,4 @@
 	background-color: #5d5fef;
 	border-radius: 50%;
 	display: inline-block;
-  }
+}

@@ -7,13 +7,13 @@ import { Router } from '@angular/router';
   templateUrl: './navigation-element.component.html',
   styleUrls: ['./navigation-element.component.css']
 })
-export class NavigationElementComponent implements OnInit {
+export class NavigationElementComponent {
   @Input()
   navigationButton!: NavigationButton;
 
   constructor(public router: Router) { }
 
-  ngOnInit(): void {
-      console.log(this.router.url)
+  onContinue() {
+    this.router.navigateByUrl(this.navigationButton.path);
   }
 }

@@ -2,7 +2,7 @@
 	<div class="image-slider-container">
 		<div class="image-slider-slide" [style.transform]="'translateX(' + slideOffset + 'px)'">
 			<div class="image-slider-item" *ngFor="let slide of slides">
-				<img [src]="slide.image" [alt]="slide.altText" />
+				<img class="image-slider-img" [src]="slide.image" [alt]="slide.altText" />
 			</div>
 		</div>
 	</div>

@@ -1,11 +1,12 @@
 interface UserDto {
 	firstName: string;
 	lastName: string;
-	profilePictureSrc: string;
+	profilePictureSrc?: string;
 	location: string;
-	likesNb: number;
-	matchesNb: number;
-	fameRate: number;
+	likesNb?: number;
+	matchesNb?: number;
+	fameRate?: number;
+	resume?: string;
 }
 
 interface NotificationDto {

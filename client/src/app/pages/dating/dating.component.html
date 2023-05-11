@@ -1,19 +1,13 @@
 <div class="dating-page-container">
 	<div class="dating-card-container">
 		<app-image-slider></app-image-slider>
-		<div class="dating-description-container">
-			<div class="dating-flex-row">
-				<div class="dating-flex-column">
-					<h3 class="dating-name">{{ firstName }} {{ lastName }}</h3>
-					<p class="dating-location">{{ location }}</p>
-				</div>
-				<div>
-					
-				</div>
-			</div>
-			<div class="dating-width-80">
-				<p class="dating-resume">{{ resume }}</p>
-			</div>
-		</div>
+		<app-dating-card-description
+			(clicked)="onDatingButtonClick()"
+			[firstName]="firstName"
+			[lastName]="lastName"
+			[location]="location"
+			[resume]="resume"
+		/>
+		<app-dating-card-passions/>
 	</div>
 </div>

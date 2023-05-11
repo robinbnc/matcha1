@@ -8,7 +8,7 @@ import { NavigationListComponent } from './nav-side-bar/navigation-list/navigati
 import { NavigationElementComponent } from './nav-side-bar/navigation-list/navigation-element/navigation-element.component';
 import { MatIconModule } from '@angular/material/icon';
 import { RouterModule } from '@angular/router';
-import {MatDividerModule} from '@angular/material/divider';
+import { MatDividerModule } from '@angular/material/divider';
 import { BoxComponent } from './notifications-side-bar/box/box.component';
 import { NotificationCardComponent } from './notifications-side-bar/notification-card/notification-card.component';
 

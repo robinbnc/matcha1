@@ -14,32 +14,12 @@
 	overflow: hidden;
 }
 
-.dating-description-container {
-	width: 100%;
-	padding: 20px;
-}
-
-.dating-name {
-	color: #1c1e4f;
-	font-size: 20px;
-	font-weight: bold;
-	margin-bottom: 0px;
-}
-
-.dating-location {
-	color: #8F90AD;
-	font-size: 12px;
-	font-weight: 500;
-}
-
-.dating-resume {
-	color: #1c1e4f;
-	font-size: 12px;
-	font-weight: 400;
-}
-
 .dating-width-80 {
 	width: 80%;
+}
+
+.dating-width-90 {
+	width: 90%;
 }
 
 .dating-flex-column {
@@ -50,4 +30,11 @@
 .dating-flex-row {
 	display: flex;
 	flex-direction: row;
+	gap: 10px;
+}
+
+.dating-flex-row-reversed {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 10px;
 }

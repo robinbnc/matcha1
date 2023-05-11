@@ -2,7 +2,7 @@
 	<img class="notification-card-image" [src]="notification.user.profilePictureSrc"/>
 	<div class="notification-card-flex-column notification-card-width-10-vw">
 		<p class="notification-card-name">{{ notification.user.firstName }} {{ notification.user.lastName }}</p>
-		<p class="notification-card-message">{{ notification.message.slice(0, 16) }}...</p>
+		<p class="notification-card-message">{{ notification.message }}</p>
 	</div>
 	<div class="notification-card-flex-column">
 		<p class="notification-card-message">{{ notification.date | date: 'HH:mm' }}</p>

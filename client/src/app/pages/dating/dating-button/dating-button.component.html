@@ -1,3 +1,5 @@
-<div class="">
-	dating-button works!
+<div (click)="onClick()" [ngClass]="isHighlighted === true ? 'dating-button-container-highlighted' : 'dating-button-container-color' " class="dating-button-container">
+	<mat-icon [ngClass]="{'dating-button-icon-highlighted': isHighlighted}">
+		{{ iconName }}
+	</mat-icon>
 </div>
