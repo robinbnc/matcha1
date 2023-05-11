@@ -1,0 +1,53 @@
+.dating-page-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dating-card-container {
+	width: 60%;
+	height: 90%;
+	background-color: white;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.dating-description-container {
+	width: 100%;
+	padding: 20px;
+}
+
+.dating-name {
+	color: #1c1e4f;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.dating-location {
+	color: #8F90AD;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.dating-resume {
+	color: #1c1e4f;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.dating-width-80 {
+	width: 80%;
+}
+
+.dating-flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.dating-flex-row {
+	display: flex;
+	flex-direction: row;
+}
