@@ -4,5 +4,5 @@
     align-items: stretch;
     width: 100%;
     height: 100%;
-    background-color: black;
+    flex: 2 1 auto;
 }

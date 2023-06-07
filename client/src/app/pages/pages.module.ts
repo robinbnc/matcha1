@@ -8,13 +8,17 @@ import { ProfileComponent } from './profile/profile.component';
 import { ImageSliderComponent } from './dating/image-slider/image-slider.component';
 import { DatingButtonComponent } from './dating/dating-button/dating-button.component';
 import { MatIconModule } from '@angular/material/icon';
-import {MatChipsModule} from '@angular/material/chips';
+import { MatChipsModule } from '@angular/material/chips';
 import { DatingCardDescriptionComponent } from './dating/dating-card-description/dating-card-description.component';
 import { DatingCardPassionsComponent } from './dating/dating-card-passions/dating-card-passions.component';
 import { ChatComponent } from './chat/chat.component';
 import { ContactsSideBarComponent } from './chat/contacts-side-bar/contacts-side-bar.component';
-import { ContactCardComponent } from './chat/contact-card/contact-card.component';
+import { ContactCardComponent } from './chat/contacts-side-bar/contact-card/contact-card.component';
 import { ConversationComponent } from './chat/conversation/conversation.component';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { ChatSearchBarComponent } from './chat/contacts-side-bar/chat-search-bar/chat-search-bar.component';
+import { ChatMessageComponent } from './chat/conversation/chat-message/chat-message.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +33,8 @@ import { ConversationComponent } from './chat/conversation/conversation.componen
     ContactsSideBarComponent,
     ContactCardComponent,
     ConversationComponent,
+    ChatSearchBarComponent,
+    ChatMessageComponent,
   ],
   imports: [
     CommonModule,
@@ -36,6 +42,8 @@ import { ConversationComponent } from './chat/conversation/conversation.componen
     RouterModule,
     MatIconModule,
     MatChipsModule,
+    MatAutocompleteModule,
+    MatFormFieldModule,
   ],
   exports: [
     PagesComponent,

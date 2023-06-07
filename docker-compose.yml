@@ -18,6 +18,7 @@ services:
     volumes:
       - client_node_modules:/app/node_modules
       - ./client/src/:/app/src/
+
   api:
     build: 
       context: ./api
@@ -32,6 +33,7 @@ services:
   mariadb:
     image: mariadb:10.6.4
     volumes:
+      - ./mariadb/init.sql:/docker-entrypoint-initdb.d/init.sql
       - mariadb_data:/var/lib/mysql
     env_file:
       - .db.env

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-contact-card',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact-card.component.css']
 })
 export class ContactCardComponent {
+  @Input()
+  user!: UserDto;
 
+  @Input()
+  activated!: boolean;
 }

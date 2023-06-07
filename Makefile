@@ -17,6 +17,9 @@ build:
 up:
 	$(COMPOSE) up
 
+force-recreate:
+	$(COMPOSE) up --force-recreate
+
 # Down target
 down:
 	$(COMPOSE) down

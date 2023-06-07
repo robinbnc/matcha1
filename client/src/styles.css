@@ -31,3 +31,43 @@ body {
 	max-height: 10%;
 	border-radius: 10px;
 }
+
+.matcha-flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.matcha-flex-row-reverse {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.matcha-flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.matcha-flex-column-reverse {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.matcha-gap-10px {
+	gap: 10px;
+}
+
+.matcha-object-fit-cover {
+	object-fit: cover;
+}
+
+.matcha-flex-align-center {
+	align-items: center;
+}
+
+.matcha-flex-justify-center {
+	justify-content: center;
+}
+
+.matcha-width100 {
+	width: 100%;
+}
